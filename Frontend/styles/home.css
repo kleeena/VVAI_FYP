@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../assets/fonts/aeonik/AeonikTRIAL-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #131314;
+    font-family: Aeonik;
+  
+}
+
+.group-1 {
+    position: absolute;
+    align-self: flex-start;
+    margin-top: 31px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    width: 80px;
+    height: 98px;
+   
+    
+}
+
+.group-1 > p {
+    margin-top: auto;
+    top: 5px;
+    left: 16px;
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.group-9 {
+    font-family: Aeonik;
+    position: absolute;
+    background-color: bisque;
+    align-self: flex-start;
+    margin-top: 231px;
+    height: 700px;
+    margin-left: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+
+    
+}
+
+.group-9 p:first-of-type {
+    font-weight: 400;
+    font-size: 90px;
+   
+
+}
+
+.group-9 p:nth-of-type(2) {
+    
+    font-size: 34px;
+    line-height: 19.2px;
+
+}
+
+.group-9 button {
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 21px;
+    padding-right: 50px;
+    padding-bottom: 21px;
+    padding-left: 50px;
+    background-color: #8865FF;
+    border-style: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.image-container {
+    background-color: chocolate;
+    width: 546px;
+    height: 768px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 31px;
+    margin-top: 31px;
+    
+}
+
+@media  (max-width: 2560px) {
+    .group-9 {
+       
+        margin-top: 231px;
+        height: 700px;
+        margin-left: 300px;
+        width: 900px;
+    }
+
+    .group-1 {
+        
+        position: absolute;
+        align-self: flex-start;
+        background-color: aliceblue;
+        margin-top: 31px;
+        margin-left: 300px;
+        width: 150px;
+        height: 170px;
+    }
+
+    .image-container {
+        width: 860px;
+        height: 1320px;
+        background-color: chocolate;
+        border-radius: 5px;
+        margin-right: 220px;
+        margin-top: 32px;
+       
+    }
+
+    .image-container img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .rectangle-5 {
+        background-color: blue;
+        height: 110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rectangle-5 img {
+        width: 50px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .image-container {
+        width: 400px;
+        height: 600px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 31px;
+        margin-top: 31px;
+    }
+
+    .group-9 {
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+
+    
