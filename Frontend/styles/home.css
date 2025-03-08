@@ -53,7 +53,6 @@ body {
 
 .group-9 p:first-of-type {
     font-weight: 400;
-    font-size: 90px;
    
 
 }
@@ -62,6 +61,8 @@ body {
     
     font-size: 34px;
     line-height: 19.2px;
+    position: relative;
+    bottom: 35px;
 
 }
 
@@ -96,7 +97,15 @@ body {
     
 }
 
-@media  (max-width: 2560px) {
+.rectangle-5 {
+    background-color: blue;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media  (min-width: 2560px) {
     .group-9 {
        
         margin-top: 231px;
@@ -143,9 +152,157 @@ body {
         width: 50px;
         height: 110px;
     }
+
+    .group-9 p:first-of-type {
+        font-size: 90px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) and (max-width: 2559.98px) {
+    .group-1 {
+        width: 100px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 31px;
+    }
+
+    .rectangle-5 {
+        width: 100px;
+        height: 90px;
+        border-radius: 5px;
+    }
+
+    .group-1 > p {
+        width: 69px;
+        height: 8px;
+        font-size: 20px;
+        top: 3px;
+        left: 14px;
+    }
+
+    .rectangle-5 img {
+        width: 44px;
+        height: 88px;
+    }
+
+    .group-9 {
+        margin-top: 231px;
+        height: 512px;
+        margin-left: 80px;
+        width: 900px;
+    }
+
+    .group-9 p:first-of-type {
+        font-weight: 400;
+        font-size: 85px;
+        position: relative;
+        bottom: 56px;
+    }
+
+    .group-9 p:nth-of-type(2) {
+        font-size: 34px;
+        line-height: 19.2px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .group-9 button {
+        width: 340px;
+        font-size: 22px;
+        position: relative;
+        bottom: 90px;
+    }
+
+    .image-container {
+        background-color: chocolate;
+        width: 660px;
+        height: 992px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 60px;
+        margin-top: 31px;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919.98px) {
+
+    .group-1 {
+        width: 80px;
+        height: 98px;
+        margin-left: 31px;
+        margin-top: 31px;
+        
+    }
+
+    .rectangle-5 {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        
+    }
+
+    .rectangle-5 img {
+        width: 36px;
+        height: 82px;
+    }
+    
+    .group-1 > p { 
+        width: 69px;
+        height: 8px;
+        font-size: 12px;
+        top: 3px;
+        left: 14px;
+        
+        
+        
+    }
+
+    .group-9 { 
+        margin-top: 231px;
+        height: 480px;
+        margin-left: 31px;
+        width: 600px;
+    }
+
+    .group-9 p:first-of-type {
+        font-weight: 400;
+        font-size: 66px;
+       
+    
+    }
+
+    .group-9 p:nth-of-type(2) {
+        font-size: 23px;
+        line-height: 19.2px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .group-9 button {
+        width: 320px;
+        height: 70px;
+        font-size: 22px;
+       
+    }
+
+    .image-container {
+        width: 500px;
+        height: 770px;
+        margin-right: 70px;
+        margin-top: 32px;
+    }
+    }
+    .image-container img {
+        height: inherit;
 }
 
 @media (max-width: 1024px) {
+   
 
     .image-container {
         width: 400px;
@@ -161,7 +318,36 @@ body {
         height: 350px;
     }
 
-}
+    .group-9 p:first-of-type {
+        font-weight: 400;
+        font-size: 50px;
+        position: relative;
+        bottom: 36px;
+    }
+
+    .group-9 p:nth-of-type(2) {
+        font-size: 17px;
+        line-height: 19.2px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .group-9 button {
+        width: 280px;
+        height: 70px;
+        font-size: 20px;
+        position: relative;
+        bottom: 34px;
+    }
+
+    .image-container {
+        margin-top: 70px;
+    }
+
+    
+
+
 
 
     
+}
